@@ -1,23 +1,23 @@
 package edu.etec.ds.fundamentos
 
 fun saludar(): String {
-    TODO("Retornar \"Hola, bienvenido!\"")
+    return
 }
 
 fun saludarConNombre(nombre: String): String {
-    TODO("Retornar \"Hola, $nombre!\"")
+    return
 }
 
 fun saludarPersona(nombre: String, apellido: String): String {
-    TODO("Retornar \"Hola, $nombre $apellido!\"")
+    return
 }
 
 fun saludarConDefault(nombre: String = "Usuario"): String {
-    TODO("Retornar \"Hola, $nombre!\"")
+    return 
 }
 
 fun crearSaludo(titulo: String, nombre: String): String {
-    TODO("Retornar \"Hola, $titulo $nombre\"")
+    return
 }
 
 fun funcionSinRetorno(): Unit {
