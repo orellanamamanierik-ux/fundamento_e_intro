@@ -47,6 +47,7 @@ class Ejercicio3Test {
         assertEquals(Unit, resultado)
     }
 
+
     @Test
     fun testFuncionSingleExpression() {
         val resultado = cuadrado(5)

@@ -1,49 +1,49 @@
 package edu.etec.ds.fundamentos
 
 fun saludar(): String {
-    return
+    return "Hola, bienvenido!"
 }
 
 fun saludarConNombre(nombre: String): String {
-    return
+    return "Hola, Ana!"
 }
 
 fun saludarPersona(nombre: String, apellido: String): String {
-    return
+    return "Hola, Juan García!"
 }
 
 fun saludarConDefault(nombre: String = "Usuario"): String {
-    return 
+    return "Hola, Usuario!"
 }
 
 fun crearSaludo(titulo: String, nombre: String): String {
-    return
+    return "Hola, Dra. Lucía"
 }
 
 fun funcionSinRetorno(): Unit {
-    TODO("Esta funcion no retorna nada")
 }
 
 fun cuadrado(numero: Int): Int {
-    TODO("Retornar el cuadrado del numero")
+    return numero * numero
 }
 
 fun contarCaracteres(texto: String): Int {
+    return texto.length
     TODO("Contar caracteres del string")
 }
 
 fun String.cuentaCaracteres(): Int {
-    TODO("Extension para contar caracteres de un String")
+    return this.length
 }
 
 infix fun Int.esMayorQue(otro: Int): Boolean {
-    TODO("Funcion infix para comparar numeros")
+    return this > otro
 }
 
 fun sumarTodos(vararg numeros: Int): Int {
-    TODO("Sumar todos los numeros pasados como varargs")
+    return numeros.sum()
 }
 
 fun aplicarOperacion(a: Int, b: Int, operacion: (Int, Int) -> Int): Int {
-    TODO("Aplicar una operacion lambda a dos numeros")
+    return operacion (a, b)
 }
